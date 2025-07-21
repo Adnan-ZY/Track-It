@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Location Tracker</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-panel">
+            <h1><span class="tech-text">Real-time IP</span> Location Tracker</h1>
+            <h2 class="author-tag">Track It, Realtime Location at a Click.</h2>
+            <h2 class="author-tag">Mini Project by M Adnan</h2>
+            <div class="search-box">
+                <input type="text" id="ipInput" placeholder="Enter IP address">
+                <button id="trackButton">
+                    <span class="button-text">Track IP</span>
+                    <span class="button-icon">→</span>
+                </button>
+            </div>
+            <div id="result"></div>
+            <div id="map"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/src/js/app.js"></script>
+</body>
+</html>
